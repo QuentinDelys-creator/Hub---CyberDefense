@@ -1,0 +1,348 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:linear-gradient(
+        180deg,
+        #22272F 0%,
+        #1B1F26 100%
+    );
+
+    font-family:'Inter',sans-serif;
+
+    color:#F5F5F5;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+}
+
+.container{
+
+    width:100%;
+    max-width:450px;
+
+    text-align:center;
+
+    padding:50px 30px;
+
+}
+
+.logo{
+
+    width:200px;
+
+    margin-bottom:40px;
+
+}
+
+h1{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    color:#B8BDC5;
+
+    margin-bottom:30px;
+
+    line-height:1.5;
+
+}
+
+.certifications{
+
+    display:flex;
+    justify-content:center;
+    gap:10px;
+
+    margin:20px 0 40px;
+
+}
+
+.certifications span{
+
+    border:1px solid #4DA3FF;
+
+    color:#4DA3FF;
+
+    padding:8px 16px;
+
+    border-radius:20px;
+
+    font-size:.8rem;
+
+    font-weight:600;
+
+}
+
+.links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.links a{
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+
+    gap:14px;
+
+    text-decoration:none;
+
+    color:#F5F5F5;
+
+    border:2px solid #F5F5F5;
+
+    border-radius:12px;
+
+    padding:15px 20px;
+
+    transition:.25s;
+
+    font-weight:600;
+
+}
+
+.links a:hover{
+
+    background:#73C9EC;
+
+    color:#22272F;
+
+    transform:translateY(-3px);
+
+}
+
+.section-divider{
+
+    display:flex;
+    align-items:center;
+
+    margin:20px 0 8px;
+
+    color:#A0A7B0;
+
+    font-size:.8rem;
+
+    font-weight:500;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.section-divider::before,
+.section-divider::after{
+
+    content:"";
+
+    flex:1;
+
+    height:1px;
+	
+
+    background:#4DA3FF;
+}
+
+.section-divider span{
+
+    padding:0 14px;
+
+}
+
+.footer{
+
+    margin-top:45px;
+
+    color:#A0A7B0;
+
+    font-size:.8rem;
+
+}
+
+/* ===== SKILLS & SERVICES ===== */
+
+.skill-section{
+
+    margin-top:35px;
+
+    text-align:left;
+
+}
+
+.skill-section h2{
+
+    display:flex;
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:18px;
+
+    font-size:1.15rem;
+
+    color:#F5F5F5;
+
+}
+
+.skill-section h2 i{
+
+    color:#4DA3FF;
+
+}
+
+
+.skill-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+}
+
+
+.skill{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:5px;
+
+    padding:15px 18px;
+
+    border-left:2px solid #4DA3FF;
+
+    background:rgba(255,255,255,.03);
+
+}
+
+
+.skill strong{
+
+    color:#F5F5F5;
+
+    font-size:.95rem;
+
+}
+
+
+.skill span{
+
+    color:#A0A7B0;
+
+    font-size:.82rem;
+
+    line-height:1.5;
+
+}
+
+
+.tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:9px;
+
+}
+
+
+.tags span{
+
+    border:1px solid #4DA3FF;
+
+    color:#4DA3FF;
+
+    padding:7px 12px;
+
+    border-radius:20px;
+
+    font-size:.78rem;
+
+    font-weight:600;
+
+}
+
+
+.creative-section p{
+
+    color:#A0A7B0;
+
+    font-size:.85rem;
+
+    line-height:1.5;
+
+    margin-bottom:15px;
+
+}
+
+
+.portfolio-link{
+
+    color:#4DA3FF;
+
+    text-decoration:none;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+}
+
+
+.portfolio-link:hover{
+
+    text-decoration:underline;
+
+}
+
+
+.back{
+
+    margin-top:45px;
+
+    margin-bottom:20px;
+
+}
+
+
+.back a{
+
+    color:#A0A7B0;
+
+    text-decoration:none;
+
+    font-size:.85rem;
+
+}
+
+
+.back a:hover{
+
+    color:#4DA3FF;
+
+}
